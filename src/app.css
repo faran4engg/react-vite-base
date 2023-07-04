@@ -1,6 +1,14 @@
 .main-section {
   height: 100vh;
   display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.button {
+  height: 10vh;
+  display: flex;
   justify-content: center;
   align-items: center;
 }
