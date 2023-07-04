@@ -28,8 +28,8 @@ const App = () => {
       /> 
       
       <div className="button">
-        <button onClick={() => setTop()}>Top</button>
-        <button onClick={() => setBottom()}>Bottom</button>
+        <button onClick={() => setPosition('top')}>Top</button>
+        <button onClick={() => setPosition('bottom')}>Bottom</button>
       </div>
     </main>
     </>
